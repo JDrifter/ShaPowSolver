@@ -23,7 +23,7 @@ for co in combs:
         tSeed = ''.join(pe) + restOfSeed
         tHash = hashlib.sha256(tSeed.encode()).hexdigest()
 
-        if (tHash == final or tSeed == 'ILoveCapybaras69'):
+        if (tHash == final):
             print ("Found the seed! : " + tSeed + " Hash = " + tHash)
             quit()
         else:
